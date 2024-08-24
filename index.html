@@ -159,29 +159,21 @@
         <div class="content has-text-justified">
           <p>
             Pre-trained conditional diffusion models have demonstrated
-impressive potential in the editing of real-world images. Al-
-though these methods achieve reasonable editing effects, they
+impressive potential in the editing of real-world images. Although these methods achieve reasonable editing effects, they
 still suffer from inconsistencies for facial images in aspects
-of appearance, expression, and temporal coherence. These is-
-sues arise from the independent editing of single images and
+of appearance, expression, and temporal coherence. These issues arise from the independent editing of single images and
 the inherent loss of temporal patterns of the editing process.
 In this paper, we introduce AvatarControl, a novel framework
 for editing and generating high-fidelity talking head avatars.
-Instead of performing independent image editing, AvatarCon-
-trol leverages the correspondence represented by optical flow
+Instead of performing independent image editing, AvatarControl leverages the correspondence represented by optical flow
 across views and frames to boost the editing consistency.
 Specifically, given a set of talking avatar images rendered by a
-pretrained 3D Gaussian Splatting model, we propose a multi-
-view consistency module to select reference views based on
-optical flow. These selected frames are then utilized to pro-
-vide complementary view-consistency for the target image,
-unifying the edited appearance. Further, we propose a tem-
-poral consistency module, which applies the optical flow and
+pretrained 3D Gaussian Splatting model, we propose a multi-view consistency module to select reference views based on
+optical flow. These selected frames are then utilized to provide complementary view-consistency for the target image,
+unifying the edited appearance. Further, we propose a temporal consistency module, which applies the optical flow and
 depth map changes of source images to the diffusion process,
 fine-tuning the edited talking head images for better temporal
-stability. Extensive experiments demonstrate that AvatarCon-
-trol outperforms state-of-the-art methods in terms of appear-
-ance, expression, and temporal consistency in edited avatars.
+stability. Extensive experiments demonstrate that AvatarControl outperforms state-of-the-art methods in terms of appearance, expression, and temporal consistency in edited avatars.
           </p>
         </div>
       </div>
